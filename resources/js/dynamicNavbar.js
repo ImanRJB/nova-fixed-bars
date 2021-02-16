@@ -21,6 +21,6 @@ function calibrateWidths() {
     const sidebar = document.querySelector('.w-sidebar')
     const contentHeader = document.querySelector('.content .h-header')
 
-    contentHeader.style.left = sidebar.offsetWidth + 'px'
+    contentHeader.style.right = sidebar.offsetWidth + 'px'
     contentHeader.style.width = '100%'
 }
